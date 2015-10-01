@@ -1,21 +1,16 @@
 $(document).ready(function() {
-  $("#SOW-click").click(function() {
-    $("#SOW").slideToggle();
-  });
 
-  $("#external-click").click(function() {
-    $("#external").slideToggle();
-  });
-
-  $("button#hello").click(function() {
-    $("ul#user").prepend ("<li>hi</li>");
+  $("button#bark").click(function() {
+    $("ul#dog").prepend ("<li>RUFFFFFFF</li>");
+    $("img#claws").remove();
     $("li").click(function() {
       $(this).remove();
     });
   });
 
-  $("button#goodbye").click(function() {
-    $("ul#webpage").prepend ("<li>hi</li>");
+  $("button#meow").click(function() {
+    $("ul#cat").prepend ("<li>MEoooooow</li>");
+    $("img#ruff").remove();
     $("li").click(function() {
       $(this).remove();
     });

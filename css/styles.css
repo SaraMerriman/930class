@@ -12,6 +12,10 @@
   text-decoration:underline;
 }
 
+img {
+  margin: 5px;
+}
+
 body {
   padding-top:60px;
 }
